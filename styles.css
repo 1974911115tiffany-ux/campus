@@ -119,6 +119,25 @@ section {
   margin-top: 20px;
 }
 
+.allergen-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 6px 0 0;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 4px;
+}
+
+.allergen-icon {
+  font-size: 11px;
+  color: #d97706;
+}
+
 button {
   padding: 8px 12px;
   border: 0;
@@ -135,6 +154,7 @@ footer {
 }
 
 @media (max-width: 560px) {
+
   .section-heading,
   .item-footer {
     align-items: flex-start;
