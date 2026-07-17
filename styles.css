@@ -119,6 +119,16 @@ section {
   margin-top: 20px;
 }
 
+.allergen-note {
+  margin: 6px 0 0;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: #9a5200;
+  background: #fff4e5;
+  border-left: 3px solid #c87542;
+  border-radius: 4px;
+}
+
 button {
   padding: 8px 12px;
   border: 0;
@@ -135,6 +145,7 @@ footer {
 }
 
 @media (max-width: 560px) {
+
   .section-heading,
   .item-footer {
     align-items: flex-start;
